@@ -1,9 +1,12 @@
-	body {
+body {
 		background-color: #ffffff;
 	}
-	h1, h2 {
+h1, h2 {
 		color: #000000;
 	}
-	p {
+p {
 		color: #0000ff;
 	}
+img{
+	width:75px;
+}
