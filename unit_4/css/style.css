@@ -1,0 +1,63 @@
+header{
+	background-color: #000;
+	margin: 
+}
+
+body{
+	background-color: #FFF;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #DDD;
+	margin: 2em, auto;
+}
+
+nav{
+	background-color: #DDD;
+	color: #FFF;
+	height: 100px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 1em;
+}
+
+h1{
+	font-size: 30px;
+	font-weight: 800;
+	padding: 20px;
+	margin: 2em, auto;
+}
+
+h2{
+	color: #707070;
+	font-size: 24px;
+	margin: 1.5em auto;
+}
+
+.brandname{
+	color: #DDD;
+	font-weight: 800;
+	font-size: 20px;
+}
+
+h3, h4{
+	color: #000;
+}
+
+h3{
+	font-size: 20px;
+}
+
+h4{
+	text-transform: uppercase;
+}
+
+a{
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+footer{
+	height: 60px;
+	background-color: #DDD
+}
