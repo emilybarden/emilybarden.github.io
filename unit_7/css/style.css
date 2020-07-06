@@ -1,0 +1,292 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #014457;
+}
+
+header {
+	width: 100%;
+	background-color: #014457;
+	padding:.5em;
+	margin-bottom: 2em;
+}
+
+main {
+	width: 85%;
+	margin: 1em auto;
+}
+
+#logo {
+	padding: .5em;
+	margin: .5em auto;
+	float: left;
+}
+
+h1 {
+	color: #014457;
+	font-size: 2em;
+	text-align: right;
+}
+
+#logo + h1 {
+	color: #FFF;
+	font-weight: 800;
+	font-size: 1.2em;
+	float: left;
+	margin-top: 2em;
+	margin-right: 3em;
+	margin-left: 1em;
+}
+
+h2 {
+	width: 70%;
+	font-family: serif;
+	font-size: 1.3em;
+	font-weight: 800;
+	padding: .5em;
+	margin: 3em 0 3em 0;
+}
+
+h3 {
+	background-color: #db5a29;
+	color: #fff;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 1em;
+	margin-bottom: .5em;
+}
+
+a {
+	color: #db5a29;	
+	text-decoration: none;
+	padding: .1em;
+	float: right;
+	border-bottom: 3px #db5a29 solid;
+}
+
+nav {
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0em;
+	margin-bottom: 0em;
+}
+
+nav a {
+	color: #014457;
+	background-color: #FFF;
+	margin-top: 2em;
+	margin-left: .1em;
+	margin-right: .1em;
+	padding: .2em .5em;
+	font-size: 1.2em;
+	text-decoration: none;
+	float: left;
+}
+
+a:hover {
+	color: #fff;
+	background-color: #db5a29;
+}
+
+#social-media {
+	padding: 1em;
+	margin-right: 1em;
+}
+
+#social_media > a{
+	margin-top: 2em;
+	padding: .2em .5em;
+	border-bottom: none;
+	float: right;
+}
+
+h4 {
+	width: 33.3333%;
+	color: #db5a29;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+h5 {
+	color: #009870;
+	font-size: 1.2em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+h6 {
+	color: #db5a29;
+	font-size: .8em;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+p {
+	color: #014457;
+	line-height: 1.3em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#quote {
+	margin-bottom: 5em;
+}
+#tri {
+	margin-top: 2em;
+    border-top: 5px #009870 solid;
+    margin-bottom: 2em;
+}
+
+#tri img {
+	width: 33.3333%;
+	padding: .5em;
+	float: left;
+}
+
+#dom {
+    background-color: #d5fdf3;
+    border-top: 5px #009870 solid;
+    padding: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-bottom: 5px #009870 solid;
+}
+
+#dom_left {
+	margin-top: 2em;
+    float: left;
+    width: 40%;
+    margin-bottom: 2em;
+}
+
+#dom_right {
+	margin: 2em;
+    float: left;
+    width: 40%;
+}
+
+li {
+	color: #009870;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	margin-left: 2em;
+	margin-bottom: .5em;
+}
+
+article {
+	width: 23%;
+	border-top: 5px #db5a29 solid;
+    padding: 1em;
+    margin: 1%;
+    float: left;
+}
+
+article > img{
+	width: 60%;
+}
+
+footer {
+	width: 100%;
+	background-color: #FF957E;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 1070px) {
+	#social_media{
+		width: auto;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	body {
+		font-size: 18px;
+	}
+	#logo {
+		width: auto;
+		margin: 0 auto;
+		float: none;
+	}
+	#logo + h1 {
+		color: #014457;
+		float: none;
+		text-align: center;
+		margin: 2em auto;
+	}
+nav a {
+	color: #014457;
+	background-color: #fff;
+	float: none;
+}
+a:hover {
+	background-color: none;
+}
+header {
+	width: 100%;
+	background-color: #fff;
+	padding:.5em;
+	margin-bottom: 2em auto;
+}
+#dom_left {
+	margin-top: 1em;
+    float: none;
+    width: 90%;
+    margin-bottom: 1em;
+}
+
+#dom_right {
+	margin: 1em;
+    float: none;
+    width: 90%;
+}
+
+@media only screen and (max-width: 550px) {
+#tri img {
+	width: auto;
+	margin: .5em 0;
+	float: none;
+}
+article {
+	width: auto;
+	border-top: 5px #db5a29 solid;
+    padding: 1em;
+    margin: 1em;
+    float: none;
+}
+article img{
+	width: 30%;
+}
+
+h6{
+	text-align: left;
+}
+}
+/*
+COLOURS
+Swim Blue: #37aecf;
+Bike Orange: #db5a29;
+Run Green: #009870;
+Pale green: #d5fdf3;
+Pale orange: #fdf1ed;
+Dark Blue: #014457;
+}
